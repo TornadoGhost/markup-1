@@ -1,0 +1,30 @@
+.hero {
+  padding-top: 111px;
+  &__container {
+    @extend %container;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__wrapper {
+    max-width: 496px;
+  }
+  &__header {
+    padding-bottom: 34px;
+    color: $black-color;
+    font-size: 57px;
+    font-weight: 500;
+    line-height: 1.36;
+    font-family: 'Clash Display', sans-serif;
+  }
+  &__text {
+    width: 444px;
+    padding-bottom: 60px;
+    line-height: 1.36;
+    color: #a1a1a1;
+  }
+  &__icon-group {
+    display: flex;
+    gap: 35px;
+  }
+}
