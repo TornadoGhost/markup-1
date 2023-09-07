@@ -1,0 +1,44 @@
+.feedback {
+  &__container {
+    @extend %container;
+  }
+  &__wrapper {
+    margin-top: 244px;
+    margin-bottom: 244px;
+    padding-top: 83px;
+    padding-bottom: 48px;
+    background: rgba(161, 161, 161, 0.1);
+    border-radius: 16px;
+    text-align: center;
+  }
+  &__img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+  &__header {
+    margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  &__text {
+    margin-bottom: 32px;
+    color: #667085;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+  &__link {
+    display: inline-block;
+    padding: 17px 37px;
+    border-radius: 10px;
+    border: 3px solid $black-color;
+    background-color: $black-color;
+    font-weight: 500;
+    color: $white-color;
+  }
+  &__link:hover,
+  &__link:focus {
+    color: $black-color;
+    background-color: $white-color;
+  }
+}

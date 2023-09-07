@@ -1,7 +1,8 @@
 .features {
-  padding-top: 202px;
   &__container {
     @extend %container;
+    padding-top: 202px;
+    padding-bottom: 244px;
   }
   &__header {
     font-family: Clash Display, sans-serif;
@@ -11,6 +12,7 @@
     text-align: center;
   }
   &__list {
+    margin-top: 85px;
     display: flex;
     justify-content: space-between;
   }

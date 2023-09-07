@@ -14,6 +14,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <title>Document</title>
   </head>
   <body>
@@ -93,9 +94,11 @@
             </p>
           </li>
           <li class="features__item">
-            <svg class="features__svg">
-              <use class="features__svg-icon"></use>
-            </svg>
+            <div class="features__svg-wrapper">
+              <svg class="features__svg">
+                <use href="./image/svg/features/icons.svg#zap"></use>
+              </svg>
+            </div>
             <h3 class="features__item-header">Auto Completion</h3>
             <p class="features__item-text">
               An all-in-one customer service platform that helps you balance everything your
@@ -103,9 +106,11 @@
             </p>
           </li>
           <li class="features__item">
-            <svg class="features__svg">
-              <use class="features__svg-icon"></use>
-            </svg>
+            <div class="features__svg-wrapper">
+              <svg class="features__svg">
+                <use href="./image/svg/features/icons.svg#bar-chart-2"></use>
+              </svg>
+            </div>
             <h3 class="features__item-header">Manage your notes with friends</h3>
             <p class="features__item-text">
               Measure what matters with Untitled's easy-to-use reports. You can filter, export, and
@@ -115,5 +120,309 @@
         </ul>
       </div>
     </section>
+    <section class="reviews">
+      <div class="reviews__container">
+        <!-- Slider main container -->
+        <div class="swiper reviews__swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide reviews__swiper-slide">
+              <svg class="reviews__icon">
+                <use href="./image/svg/features/icons.svg#logomark"></use>
+              </svg>
+              <p class="reviews__text">
+                I use Note.d for all my note taking when working on a <br />project. I send it over
+                to clients to crosscheck <br />for me.
+              </p>
+              <img
+                class="reviews__img"
+                src="./image/image-1.png"
+                alt="person-icon"
+                width="54px"
+                height="54px"
+              />
+              <h3 class="reviews__name">Derrick Tsorme</h3>
+              <p class="reviews__position">Product Designer</p>
+            </div>
+            <div class="swiper-slide reviews__swiper-slide">
+              <svg class="reviews__icon">
+                <use href="./image/svg/features/icons.svg#logomark"></use>
+              </svg>
+              <p class="reviews__text">
+                I use Note.d for all my note taking when working on a <br />project. I send it over
+                to clients to crosscheck <br />for me.
+              </p>
+              <img
+                class="reviews__img"
+                src="./image/image-1.png"
+                alt="person-icon"
+                width="54px"
+                height="54px"
+              />
+              <h3 class="reviews__name">Derrick Tsorme</h3>
+              <p class="reviews__position">Product Designer</p>
+            </div>
+            <div class="swiper-slide reviews__swiper-slide">
+              <svg class="reviews__icon">
+                <use href="./image/svg/features/icons.svg#logomark"></use>
+              </svg>
+              <p class="reviews__text">
+                I use Note.d for all my note taking when working on a <br />project. I send it over
+                to clients to crosscheck <br />for me.
+              </p>
+              <img
+                class="reviews__img"
+                src="./image/image-1.png"
+                alt="person-icon"
+                width="54px"
+                height="54px"
+              />
+              <h3 class="reviews__name">Derrick Tsorme</h3>
+              <p class="reviews__position">Product Designer</p>
+            </div>
+            <div class="swiper-slide reviews__swiper-slide">
+              <svg class="reviews__icon">
+                <use href="./image/svg/features/icons.svg#logomark"></use>
+              </svg>
+              <p class="reviews__text">
+                I use Note.d for all my note taking when working on a <br />project. I send it over
+                to clients to crosscheck <br />for me.
+              </p>
+              <img
+                class="reviews__img"
+                src="./image/image-1.png"
+                alt="person-icon"
+                width="54px"
+                height="54px"
+              />
+              <h3 class="reviews__name">Derrick Tsorme</h3>
+              <p class="reviews__position">Product Designer</p>
+            </div>
+            <div class="swiper-slide reviews__swiper-slide">
+              <svg class="reviews__icon">
+                <use href="./image/svg/features/icons.svg#logomark"></use>
+              </svg>
+              <p class="reviews__text">
+                I use Note.d for all my note taking when working on a <br />project. I send it over
+                to clients to crosscheck <br />for me.
+              </p>
+              <img
+                class="reviews__img"
+                src="./image/image-1.png"
+                alt="person-icon"
+                width="54px"
+                height="54px"
+              />
+              <h3 class="reviews__name">Derrick Tsorme</h3>
+              <p class="reviews__position">Product Designer</p>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination reviews__swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="feedback__container">
+        <div class="feedback__wrapper">
+          <img class="feedback__img" src="./image/avatar-group.png" alt="avatar-group" />
+          <h3 class="feedback__header">Do you have any questions?</h3>
+          <p class="feedback__text">
+            We are available 24/7 to answer any question you have about Note.d
+          </p>
+          <a class="feedback__link" href="#">Send a message</a>
+        </div>
+      </div>
+    </section>
+    <section class="app">
+      <div class="app__container">
+        <div class="app__wrapper">
+          <b class="app__call">Download <span class="app__logo">Note.d</span></b>
+          <p class="app__text">Join over 20,000+ users and make your life easier.</p>
+          <div class="app__wrap-img">
+            <img
+              class="app__img"
+              src="./image/google-play-badge.png"
+              alt="Google play badge"
+              width="135px"
+              height="40px"
+            />
+            <img
+              class="app__img"
+              src="./image/app-store-badge.png"
+              alt="App store badge"
+              width="120px"
+              height="40px"
+            />
+          </div>
+        </div>
+        <img
+          class="app__board"
+          src="./image/Rectangle.png"
+          alt="app-board"
+          width="482.5px"
+          height="864px"
+        />
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer__container">
+        <div class="footer__lists-wrapper">
+          <div class="footer__wrapper">
+            <h3 class="footer__header">Product</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Overview</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Solutions</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Features</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Tutorials</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Pricing</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Release</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__wrapper">
+            <h3 class="footer__header">Company</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">About us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Careers</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Press</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">News</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Media kit</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__wrapper">
+            <h3 class="footer__header">Resources</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Blog</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Newsletter</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Events</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Help center</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Tutorials</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__wrapper">
+            <h3 class="footer__header">Use cases</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Startup</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Enterprise</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Government</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">SaaS</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Marketplaces</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Ecommerce</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__wrapper">
+            <h3 class="footer__header">Social</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Twitter</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">LinkedIn</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Facebook</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">GitHub</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">AngelList</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Dribbble</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__wrapper">
+            <h3 class="footer__header">Legal</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Terms</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Privacy</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Cookies</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Licenses</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Settings</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom-wrapper">
+          <a class="footer__logo" href="/index.html">Note.d</a>
+          <p class="footer__copyright">© 2022 Note.d All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
